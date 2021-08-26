@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <link href="./style.css" type="text/css" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <meta name="viewport" content="width=device-width, user-scalable=no">
+       <title>
+           Audrey's Portfolio
+       </title>
+       <body>
+           <header>
+               <nav class="topnav" id="portfoliotopnav"> 
+                   <a href="#contact">Contact</a>
+                   <a href="#accomplishments">Accomplishments</a>
+                   <a href="#portfolio">Portfolio</a>
+                   <a href="#skills">Skills</a>
+                   <a href="#about">About</a>
+                   <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+                <i class="fa fa-bars"></i></a>
+               </nav>
+           </header>
+           <main>
+           <header>
+               <h1>Audrey Ndukwe</h1>
+           </header>
+           <!--this is a section for the about webpage-->
+           <div id="aboutsection">
+            <figure>
+            <a href="https://www.linkedin.com/in/audrey-ndukwe-98b394173" target="_blank"><img src="enthromycin.jpg" width="300" height="268" alt="structure of enthromycin"/></a>
+            <figcaption>This is the structure of enthromycin</figcaption>
+            </figure>
+               <h2 id="about">About</h2>
+               <p>I am a 2nd year <em>Chemistry</em> PhD student developing <strong>new antimicrobials</strong> that are effective against bioifilms.</p>
+              <br>
+              <!--this is a section for the skills webpage-->
+               <h3 id="skills">Skills</h3>
+               <h4>Research skills</h4>
+               <ul class="list">
+                   <li>Report Writing</li>
+                   <li>Data Analysis</li>
+                   <li>Organic Synthesis</li>
+                   
+               </ul>
+               <h4>Interpersonal skills</h4>
+               <ul class="list">
+                   <li>Teamwork</li>
+                   <li>Detail Oriented</li>
+               </ul>
+               <h4>Technical Skills</h4>
+               <ul class="list">
+                   <li>LC-MS</li>
+                   <li>HPLC</li>
+                   <li>NMR</li>
+               </ul>
+           </div>
+           <!--this is a section for the accomplishments webpage-->
+           <div id="accomplishmentssection">
+               <h2 id="accomplishments">Accomplishments</h2>
+               <table>
+                   <tr>
+                       <th scope="col">Publications</th>
+                       <th scope="col">Awards</th>
+                       <th scope="col">Presentations</th>
+                   </tr>
+                   <tr>
+                       <td>watch this space</td>
+                       <td>QUT scholarship award</td>
+                       <td>Queensland Chemistry Symposium</td>
+                   </tr>
+                   <tr>
+                       <td></td>
+                       <td></td>
+                       <td>Centre of Materials Future Symposium</td>
+                   </tr>
+               </table>              
+            </div>
+            <br>
+            <!--this is a section for coding examples-->
+            <div id="codingexamples">
+                <h3>Coding Examples</h3>
+                <a href="./quiz.html" id="quizbutton">Take the portfolio Quiz!</a>
+            </div>
+            <br>
+           <!--this is a section for the contact webpage-->
+           <div id="contactsection">
+               <h2 id="contact" class="contactform">Contact</h2>  
+               <a class="contactlink" href="https://www.linkedin.com/in/audrey-ndukwe-98b394173" target="_blank">Linkedin</a>
+               <!--the value part is not required and can be removed for an empty textbox on the webpage I have also added pre-filled text in the text area but that can be removed so it is seen as a blank text box-->
+               <form>
+              .     <label for="name">*Name:</label>
+                   <br>
+                   <input type="text" id="name" name="name" required>
+                   <br><br>
+                   <label for ="message">*Leave your message below:</label>
+                   <br>
+                   <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+                   <br><br>
+                   <label for ="email">*Email:</label>
+                   <br>
+                   <input type="text" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                   <br><br>
+                   <label for="mobile">Mobile (optional):</label>
+                   <br>
+                   <input type="tel" name="mobile" id="mobile" pattern="[0-9] {10, 16}">
+                   <br><br>
+                   <input type="submit" value="Send">
+
+               </form>
+           </div>
+           </main>
+           <script src="./nav.js"></script>
+       </body>
+   </head> 
+</html>
