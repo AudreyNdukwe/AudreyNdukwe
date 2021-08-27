@@ -140,7 +140,7 @@ function showResults () {
             resultsContainer.innerHTML = "There's room for improvement there! You only got one correct answer.";
              }
         if (numCorrect === 2) { 
-            resultsContainer.innerHTML = "That was okay! You got a score of 2 out of 4 for your responses. Have another go to see if you can improve on that";
+            resultsContainer.innerHTML = "That was okay! You got a score of 2 out of 4 for your responses. Have another go to see if you can improve on that.S";
             }
         if (numCorrect === 3) { 
             resultsContainer.innerHTML = "Congratulations! You got a good score of 3 out of 4 for your responses. You know Audrey pretty well!";
