@@ -3,7 +3,7 @@ h1 {color: #00CFC1; text-align: center;}
 h2 {color: #073b3a}
 h4 {color: #7d8491}
 h3 {color: #04857e}
-#accomplishments, #about, #skills {background-color: #dbf9f4;}
+#accomplishments, #about, #skills, #examples {background-color: #dbf9f4; margin-right: 50px;}
 body {font-family: arial; color: #2b4141; } /* style for the body of the webpage */
 #contactsection {background-color: #ef767a; width: 238.8px; padding:30px; float: right;}
 /* setting up table display */
@@ -34,3 +34,5 @@ header {margin-top: 50px;}
     .topnav.responsive a.icon {position: absolute; right: 0; top: 0;}
     .topnav.responsive a {float: none; display: block; text-align: left;}
 }
+a.contactlink {color: #fff;} /*colours linkedin link*/
+a.takethequiz {color: #7d8491; margin-left: 50px;} /*colours link and moves element by width of 50px */
