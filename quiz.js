@@ -137,7 +137,7 @@ function showResults () {
             resultsContainer.innerHTML = "That wasn't your best effort - you didn't get a single answer correct.";
              }
         if (numCorrect === 1) { 
-            resultsContainer.innerHTML = "There’s room for improvement there! You only got one correct answer.";
+            resultsContainer.innerHTML = "There's room for improvement there! You only got one correct answer.";
              }
         if (numCorrect === 2) { 
             resultsContainer.innerHTML = "That was okay! You got a score of 2 out of 4 for your responses. Have another go to see if you can improve on that";
