@@ -55,14 +55,14 @@ function buildQuiz () {
       // for each available answer to this question add a html radio button
       for(letter in quizQuestions[i].answers){
 
-        answers.push(
-            '<label>'
-            + '<input type="radio" name"question'+i+'" value="'+letter'">'
-            + letter + ': '
-            + quizQuestions[i].answers[letter]
-            + '</label>' 
-            );
-        }
+         answers.push(
+              '<label>'
+              + '<input type="radio" name="question'+i+'" value="'+letter+'">'
+              + letter + ': '
+               + quizQuestions[i].answers[letter]
+               + '</label>'
+                );
+             }
         // add this question and its answers to the output
         output.push(
             '<div class="question">' + quizQuestions[i].question + '</div>'
